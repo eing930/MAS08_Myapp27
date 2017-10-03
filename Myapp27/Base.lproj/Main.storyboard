@@ -49,13 +49,37 @@
                                     <outletCollection property="gestureRecognizers" destination="HTw-Zp-szv" appends="YES" id="1mj-1l-qB4"/>
                                 </connections>
                             </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="e2F-iX-bB7">
+                                <rect key="frame" x="16" y="259" width="97" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pdc-Pi-jXG" appends="YES" id="uXO-wE-7mU"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="下載.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-1v-Orl">
+                                <rect key="frame" x="8" y="355" width="105" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oCu-Ft-W5r" appends="YES" id="EAJ-Y3-VQE"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5X0-fA-GgJ">
+                                <rect key="frame" x="337" y="363" width="22" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26435557539999999" green="0.85176282049999996" blue="0.17038187390000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="ball2View" destination="e2F-iX-bB7" id="wyr-z1-dj5"/>
+                        <outlet property="ball3View" destination="xuF-1v-Orl" id="v0K-td-CRS"/>
                         <outlet property="ballView" destination="5gU-8x-Zc1" id="sAg-T9-CZm"/>
+                        <outlet property="greenView" destination="5X0-fA-GgJ" id="c01-gY-NUH"/>
                         <outlet property="labelA" destination="oi4-fB-sZw" id="RTq-xv-QBR"/>
                         <outlet property="targetView" destination="7Qw-Dh-Zo5" id="wo7-KU-I04"/>
                     </connections>
@@ -71,11 +95,23 @@
                         <action selector="doTap:" destination="BYZ-38-t0r" id="P96-Lo-jPQ"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="pdc-Pi-jXG">
+                    <connections>
+                        <action selector="pushBall:" destination="BYZ-38-t0r" id="0Na-6q-5oA"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oCu-Ft-W5r">
+                    <connections>
+                        <action selector="doSnap:" destination="BYZ-38-t0r" id="Wav-FO-eJu"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
     </scenes>
     <resources>
         <image name="1 拷貝.png" width="64" height="64"/>
+        <image name="2.jpeg" width="225" height="225"/>
+        <image name="下載.jpeg" width="209" height="241"/>
     </resources>
 </document>

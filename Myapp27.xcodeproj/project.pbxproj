@@ -13,6 +13,8 @@
 		3BDE4B401F832F54008531D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE4B3F1F832F54008531D6 /* Assets.xcassets */; };
 		3BDE4B431F832F54008531D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE4B411F832F54008531D6 /* LaunchScreen.storyboard */; };
 		3BDE4B4B1F8334E9008531D6 /* 1 拷貝.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE4B4A1F8334E4008531D6 /* 1 拷貝.png */; };
+		3BDE4B4D1F8339BA008531D6 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE4B4C1F8339A3008531D6 /* 2.jpeg */; };
+		3BDE4B4F1F833D2D008531D6 /* 下載.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE4B4E1F833D2A008531D6 /* 下載.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3BDE4B421F832F54008531D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDE4B441F832F54008531D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BDE4B4A1F8334E4008531D6 /* 1 拷貝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 拷貝.png"; path = "../../../Downloads/1 拷貝.png"; sourceTree = "<group>"; };
+		3BDE4B4C1F8339A3008531D6 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = ../../../Downloads/2.jpeg; sourceTree = "<group>"; };
+		3BDE4B4E1F833D2A008531D6 /* 下載.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "下載.jpeg"; path = "../../../Downloads/下載.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		3BDE4B371F832F54008531D6 /* Myapp27 */ = {
 			isa = PBXGroup;
 			children = (
+				3BDE4B4E1F833D2A008531D6 /* 下載.jpeg */,
+				3BDE4B4C1F8339A3008531D6 /* 2.jpeg */,
 				3BDE4B4A1F8334E4008531D6 /* 1 拷貝.png */,
 				3BDE4B381F832F54008531D6 /* AppDelegate.swift */,
 				3BDE4B3A1F832F54008531D6 /* ViewController.swift */,
@@ -126,8 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDE4B4D1F8339BA008531D6 /* 2.jpeg in Resources */,
 				3BDE4B4B1F8334E9008531D6 /* 1 拷貝.png in Resources */,
 				3BDE4B431F832F54008531D6 /* LaunchScreen.storyboard in Resources */,
+				3BDE4B4F1F833D2D008531D6 /* 下載.jpeg in Resources */,
 				3BDE4B401F832F54008531D6 /* Assets.xcassets in Resources */,
 				3BDE4B3E1F832F54008531D6 /* Main.storyboard in Resources */,
 			);
