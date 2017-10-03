@@ -41,8 +41,8 @@
                                     <outletCollection property="gestureRecognizers" destination="6CB-HH-T2J" appends="YES" id="hhx-00-c6x"/>
                                 </connections>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 拷貝.png" translatesAutoresizingMaskIntoConstraints="NO" id="5gU-8x-Zc1">
-                                <rect key="frame" x="198" y="29" width="106" height="108"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1 拷貝.png" translatesAutoresizingMaskIntoConstraints="NO" id="5gU-8x-Zc1">
+                                <rect key="frame" x="16" y="154" width="76" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>

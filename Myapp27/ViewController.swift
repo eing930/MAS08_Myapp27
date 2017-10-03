@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         //1.
         //2.
         let g = UIGravityBehavior(items: [ballView])
+        g.gravityDirection = CGVector(dx: 1.0,dy: 1.0)
+        anim.addBehavior(g)
         
     }
     @IBAction func doPan(_ sender: UIPanGestureRecognizer) {
